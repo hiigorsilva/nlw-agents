@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node --env-file=.env --no-warnings src/server.ts",
-    "dev": "tsx --env-file=.env watch src/server.ts",
+    "dev": "tsx --env-file=.env --no-warnings --watch src/server.ts",
+    "build": "tsup-node",
     "prepare": "husky"
   },
   "keywords": [],
@@ -21,6 +22,8 @@
     "git-commit-msg-linter": "^5.0.8",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {
