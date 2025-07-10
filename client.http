@@ -6,3 +6,5 @@
 GET {{baseUrl}}/health
 
 ###
+
+GET {{baseUrl}}/rooms
