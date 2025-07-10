@@ -4,7 +4,7 @@ import z from 'zod'
 export const health: RouteShorthandOptions = {
   schema: {
     summary: 'Health Route',
-    description: 'Callback route to check the health of the API',
+    description: 'Callback route to check API health',
     consumes: ['application/json'],
     tags: ['Check'],
     response: {
