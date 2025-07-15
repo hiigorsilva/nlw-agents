@@ -1,5 +1,5 @@
 import type { RouteShorthandOptions } from 'fastify'
-import z from 'zod'
+import z from 'zod/v4'
 
 export const health: RouteShorthandOptions = {
   schema: {
