@@ -14,6 +14,9 @@ const seedDatabase = async () => {
           description: f.loremIpsum(),
         },
       },
+      questions: {
+        count: 20,
+      },
     }))
 
     await sql.end()

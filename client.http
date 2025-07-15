@@ -4,7 +4,9 @@
 ###
 
 GET {{baseUrl}}/health
+Content-Type: application/json
 
 ###
 
 GET {{baseUrl}}/rooms
+Content-Type: application/json
