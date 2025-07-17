@@ -4,7 +4,7 @@ import { registerCompilers } from './app/config/compilers.ts'
 import { registerCors } from './app/plugins/cors.ts'
 import { registerSwagger } from './app/plugins/swagger.ts'
 import { startServer } from './app/start.ts'
-import { registerRoutes } from './routes/index.ts'
+import { registerRoutes } from './http/routes/index.ts'
 
 // App
 const app = fastify().withTypeProvider<ZodTypeProvider>()
